@@ -157,7 +157,7 @@ if __name__ == "__main__":
 
     import uvicorn
 
-    port = int(os.environ.get("ass", 8000))
+    port = int(os.environ.get("port", 8000))
 
     uvicorn.run(
         app,
